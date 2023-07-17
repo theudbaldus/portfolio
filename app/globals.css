@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#blob {
+    background: radial-gradient(243.59% 121.71% at 100.00% -0.00%, rgba(255, 211, 25, 0.25) 0%, rgba(255, 144, 31, 0.25) 25%, rgba(255, 41, 117, 0.25) 50%, rgba(199, 0, 181, 0.25) 75%, rgba(176, 0, 255, 0.25) 100%);
+}
+
+#menu {
+    background: linear-gradient(90deg, rgba(176,0,255,1) 0%, rgba(199,0,181,1) 25%, rgba(255,41,117,1) 50%, rgba(255,144,31,1) 75%, rgba(255,211,25,1) 100%);
+}
