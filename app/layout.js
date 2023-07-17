@@ -5,6 +5,7 @@ import BottomNavigator from '@/components/BottomNavigator';
 import ToggleMenu from '@/components/ToggleMenu';
 import Blob from '@/components/Blob';
 import Background from '@/components/Background';
+import MobileBlob from '@/components/MobileBlob';
 
 const urbanist = Urbanist({ subsets: ['latin'] })
 
@@ -21,6 +22,7 @@ export default function RootLayout({ children }) {
                 <ToggleMenu />
                 {children}
                 <Blob />
+                <MobileBlob />
                 <Background />
                 <BottomNavigator />
             </body>

@@ -49,14 +49,11 @@ export default function Work({ params }) {
                 ) : null}
             </AnimatePresence>
 
-            {/* <LiveView link={work?.link} color={work?.color} /> */}
-
             <motion.div initial={{ opacity: 0, x: 100 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 1 }} className="static lg:absolute z-[10] w-full md:w-[60vw] lg:w-[40vw] right-[5vw] h-auto">
                 <Image className="w-full h-auto rounded-lg" src={work?.image} alt={work.id} width={1920} height={1080} priority={true} />
             </motion.div>
-            {/* <Image className="static lg:absolute z-[10] w-full md:w-[60vw] lg:w-[40vw] right-[5vw] rounded-lg h-auto" src={work?.image} alt={work.id} width={1920} height={1080} priority /> */}
-
-            {/* <WorksBlob color={work?.color} /> */}
+            
+            <WorksBlob color={work?.color} />
         </main>
     );
 };
