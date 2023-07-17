@@ -2,9 +2,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { worksData } from "@/data/worksData";
-import Background from "@/components/Background";
-import Blob from "@/components/Blob";
-import { AnimatePresence, motion } from "framer-motion";
+import { motion } from "framer-motion";
 
 const textMotion = {
     visible: {

@@ -1,6 +1,4 @@
-"use client"
-import Blob from "@/components/Blob";
-import Background from "@/components/Background";
+"use client";
 import { motion } from "framer-motion";
 
 const textMotion = {
@@ -30,8 +28,6 @@ export default function Home() {
                 <motion.h1 variants={itemMotion} className="text-4xl md:text-6xl lg:text-8xl text-white tracking-[0.3rem] md:tracking-[1rem] text-center select-none">thibault thomas</motion.h1>
                 <motion.p variants={itemMotion} className="text-2xl md:text-3xl lg:text-4xl text-gray-300">Frontend Developer</motion.p>
             </motion.div>
-
-            {/* <Background /> */}
         </main>
     );
 };
