@@ -10,7 +10,7 @@ export default function About() {
         <main className="relative w-screen h-screen flex flex-col text-white select-none overflow-hidden">
             <div className="z-[10] w-full overflow-scroll">
                 <motion.div initial={{ opacity: 0, y: 100 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.75 }} className="flex flex-col lg:flex-row lg:items-center gap-8 px-4 md:px-[128px] py-[64px] md:py-[86px] lg:py-[128px]">
-                    <Image className="w-[40vw] lg:w-[30vw] h-auto mx-auto" src={portrait} alt="portrait" width={1050} height={1050} />
+                    <Image className="w-[40vw] lg:w-[30vw] h-auto mx-auto" src={portrait} alt="portrait" width={1050} height={1050} priority={true} />
 
                     <div className="flex flex-col gap-8">
                         <p className="text-base">Hi, I am Thibault Thomas and I use theudbaldus as nickname on social media. I am a frontend developer looking for a first professional experience.</p>
